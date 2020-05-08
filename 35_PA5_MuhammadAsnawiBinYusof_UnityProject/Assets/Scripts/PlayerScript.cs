@@ -54,11 +54,6 @@ public class PlayerScript : MonoBehaviour
         if (score == 4)
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
-
-            if (level == 1)
-            {
-                SceneManager.LoadScene("GameWin");
-            }
         }
     }
     private void OnCollisionEnter(Collision collision)
